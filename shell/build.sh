@@ -1,0 +1,1 @@
+sh shell/app/init.sh

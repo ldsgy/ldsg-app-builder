@@ -1,0 +1,1 @@
+ldsg generate -e data/template.json $LGSG_APP_DATA_URL
