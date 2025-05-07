@@ -1,1 +1,1 @@
-npm i -g pnpm @ldsg/cli
+npm i -g pnpm @ldsg/cli@0.0.2
