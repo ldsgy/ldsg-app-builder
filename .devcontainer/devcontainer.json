@@ -2,7 +2,9 @@
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "containerEnv": {},
+  "containerEnv": {
+    "NPM_CONFIG_REGISTRY": "https://wanxger-npm.pkg.coding.net/npm/npm/"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -30,5 +32,5 @@
       "settings": {}
     }
   },
-  "postCreateCommand": "npm i -g pnpm @ldsg/cli"
+  "postCreateCommand": "npm i -g pnpm @ldsg/cli@0.0.2"
 }
